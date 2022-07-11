@@ -8,8 +8,7 @@ public class Main {
         var color = "Blue";
 
         var template = "Clothing item: %s, size %s, color %s, $%.2f";
-        var itemString = String.format(template,
-                item, size, color, price);
+        var itemString = String.format(template, item, size, color, price);
         System.out.println(itemString);
     }
 }
